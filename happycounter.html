@@ -1,0 +1,60 @@
+<div id="banner-message">
+  <p id="counter">00000000</p>
+  <p class="delivered">Happiness Delivered</p>
+
+</div>
+
+<style media="screen">
+  body {
+    background: #111;
+    padding: 20px;
+    font-family: Helvetica;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+
+  p {
+    color: #fff;
+    font-size: 140px;
+  }
+
+  p#counter {
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+
+  p.delivered {
+    margin-left: 245px;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+</style>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+
+$(document).ready(function() {
+  setInterval(increment, 15000);
+});
+
+function increment() {
+  var number = +($('#counter').text());
+
+  number = number + 1;
+  var numberAsString = number.toString();
+  var addTo = "0";
+
+  for(i = 8 - numberAsString.length; i > 0; i--) {
+    numberAsString = addTo + numberAsString;
+  }
+
+  $('#counter').text(numberAsString);
+
+}
+
+</script>
