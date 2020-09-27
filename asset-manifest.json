@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ce7edf64.chunk.css",
+    "main.js": "/static/js/main.8911b03d.chunk.js",
+    "main.js.map": "/static/js/main.8911b03d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8b0205d8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8b0205d8.js.map",
+    "static/css/2.f7557379.chunk.css": "/static/css/2.f7557379.chunk.css",
+    "static/js/2.9d621fa5.chunk.js": "/static/js/2.9d621fa5.chunk.js",
+    "static/js/2.9d621fa5.chunk.js.map": "/static/js/2.9d621fa5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.abb602e5983a2630308f15be6260415d.js": "/precache-manifest.abb602e5983a2630308f15be6260415d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.f7557379.chunk.css.map": "/static/css/2.f7557379.chunk.css.map",
+    "static/css/main.ce7edf64.chunk.css.map": "/static/css/main.ce7edf64.chunk.css.map",
+    "static/js/2.9d621fa5.chunk.js.LICENSE.txt": "/static/js/2.9d621fa5.chunk.js.LICENSE.txt",
+    "static/media/typography.scss": "/static/media/source-sans-pro-latin-900-normal.d8eab344.woff2",
+    "static/media/bell_one.webm": "/static/media/bell_one.3386ebae.webm",
+    "static/media/bell_two.webm": "/static/media/bell_two.451898a0.webm"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b0205d8.js",
+    "static/css/2.f7557379.chunk.css",
+    "static/js/2.9d621fa5.chunk.js",
+    "static/css/main.ce7edf64.chunk.css",
+    "static/js/main.8911b03d.chunk.js"
+  ]
+}
